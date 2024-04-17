@@ -1,0 +1,273 @@
+.text-banner {
+  padding: 10px 0; /* Add some padding */
+  margin-bottom: 20px; /* Add some space below the banner */
+  border-bottom: 1px solid #e9ecef; /* Optional: adds a line under the text banner */
+}
+.trial-banner {
+  /* Spacing before the next content */
+  position: absolute;
+  top: 40px; /* Adjust as per requirement */
+  left: 60px; /* Adjust as per requirement */
+/
+}
+
+
+.logo-container {
+  position: absolute;
+  top: 20px; /* Adjust as per requirement */
+  left: 20px; /* Adjust as per requirement */
+}
+
+.logo-container img {
+  width: 160px; /* Adjust based on your logo size */
+  height: auto;
+}
+
+
+.form-section {
+  background-color: #f7f7f7;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.description-section {
+  padding: 30px;
+  font-size: 0.9rem; /* Adjust font size for the description */
+}
+
+.btn-red {
+  background-color: #ff0000 !important;
+  color: white !important;
+  border: none !important;
+  margin-top: 5% !important; /* pushes the button to the bottom */
+  max-width: 66% !important;
+}
+
+.equal-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.equal-height > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make sure the button sticks to the bottom */
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.form-section button[type="submit"] {
+  margin-top: 3%;
+}
+.form-section label {
+  font-size: inherit;
+}
+.des {
+  font-size: 1.35rem;
+  line-height: 30px;
+  margin: 20px 0;
+}
+.form-group > input,
+.form-group > select {
+  max-width: 66%;
+}
+.form-control {
+  color: #617181 !important;
+  background-color: #fff !important;
+  background-clip: padding-box !important;
+  border: 1px solid #a2b0bd !important;
+  border-radius: 0.25rem !important;
+}
+.intl-tel-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.intl-tel-input .selected-flag {
+  z-index: 4;
+}
+.intl-tel-input .country-list {
+  z-index: 5;
+}
+.input-group .intl-tel-input .form-control {
+  color: #617181;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #a2b0bd;
+  border-radius: 0.25rem;
+}
+.iti{
+  display: block !important;
+  width: 66%;
+}
+.title-with-line {
+  text-align: center;
+  font-size: 24px; /* You can adjust the font size as needed */
+  margin-bottom: 20px; /* Adjust the bottom margin as needed */
+  position: relative;
+  display: inline-block;
+}
+
+.title-with-line::after {
+  content: '';
+  position: absolute;
+  bottom: -10px; /* Adjust the position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px; /* Height of the underline */
+  width: 70%; /* Length of the underline */
+  background: #000; /* Color of the underline */
+}
+.language-switcher {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+.highlight1 {
+  color: #FF0000; /* Replace with your desired color */
+  
+}
+table.dataTable{
+  border: #cdc4c4 ;
+}
+
+
+
+
+.btn-right-margin {
+  margin-right: 20px; /* Space from the right edge */
+  float: right; /* Align to the right */
+}
+.checkbox-wrapper-1 *,
+.checkbox-wrapper-1 ::after,
+.checkbox-wrapper-1 ::before {
+  box-sizing: border-box;
+}
+.checkbox-wrapper-1 [type=checkbox].substituted {
+  margin: 0;
+  width: 0;
+  height: 0;
+  display: inline;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.checkbox-wrapper-1 [type=checkbox].substituted + label:before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  height: 1.15em;
+  width: 1.15em;
+  margin-right: 0.6em;
+  color: rgba(0, 0, 0, 0.275);
+  border: solid 0.06em;
+  box-shadow: 0 0 0.04em, 0 0.06em 0.16em -0.03em inset, 0 0 0 0.07em transparent inset;
+  border-radius: 0.2em;
+  background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xml:space="preserve" fill="white" viewBox="0 0 9 9"><rect x="0" y="4.3" transform="matrix(-0.707 -0.7072 0.7072 -0.707 0.5891 10.4702)" width="4.3" height="1.6" /><rect x="2.2" y="2.9" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 12.1877 2.9833)" width="6.1" height="1.7" /></svg>') no-repeat center, white;
+  background-size: 0;
+  will-change: color, border, background, background-size, box-shadow;
+  transform: translate3d(0, 0, 0);
+  transition: color 0.1s, border 0.1s, background 0.15s, box-shadow 0.1s;
+}
+.checkbox-wrapper-1 [type=checkbox].substituted:enabled:active + label:before,
+.checkbox-wrapper-1 [type=checkbox].substituted:enabled + label:active:before {
+  box-shadow: 0 0 0.04em, 0 0.06em 0.16em -0.03em transparent inset, 0 0 0 0.07em rgba(0, 0, 0, 0.1) inset;
+  background-color: #f0f0f0;
+}
+.checkbox-wrapper-1 [type=checkbox].substituted:checked + label:before {
+  background-color: #3B99FC;
+  background-size: 0.75em;
+  color: rgba(0, 0, 0, 0.075);
+}
+.checkbox-wrapper-1 [type=checkbox].substituted:checked:enabled:active + label:before,
+.checkbox-wrapper-1 [type=checkbox].substituted:checked:enabled + label:active:before {
+  background-color: #0a7ffb;
+  color: rgba(0, 0, 0, 0.275);
+}
+.checkbox-wrapper-1 [type=checkbox].substituted:focus + label:before {
+  box-shadow: 0 0 0.04em, 0 0.06em 0.16em -0.03em transparent inset, 0 0 0 0.07em rgba(0, 0, 0, 0.1) inset, 0 0 0 3.3px rgba(65, 159, 255, 0.55), 0 0 0 5px rgba(65, 159, 255, 0.3);
+}
+.checkbox-wrapper-1 [type=checkbox].substituted:focus:active + label:before,
+.checkbox-wrapper-1 [type=checkbox].substituted:focus + label:active:before {
+  box-shadow: 0 0 0.04em, 0 0.06em 0.16em -0.03em transparent inset, 0 0 0 0.07em rgba(0, 0, 0, 0.1) inset, 0 0 0 3.3px rgba(65, 159, 255, 0.55), 0 0 0 5px rgba(65, 159, 255, 0.3);
+}
+.checkbox-wrapper-1 [type=checkbox].substituted:disabled + label:before {
+  opacity: 0.5;
+}
+
+.checkbox-wrapper-1 [type=checkbox].substituted.dark + label:before {
+  color: rgba(255, 255, 255, 0.275);
+  background-color: #222;
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xml:space="preserve" fill="rgba(34, 34, 34, 0.999)" viewBox="0 0 9 9"><rect x="0" y="4.3" transform="matrix(-0.707 -0.7072 0.7072 -0.707 0.5891 10.4702)" width="4.3" height="1.6" /><rect x="2.2" y="2.9" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 12.1877 2.9833)" width="6.1" height="1.7" /></svg>');
+}
+.checkbox-wrapper-1 [type=checkbox].substituted.dark:enabled:active + label:before,
+.checkbox-wrapper-1 [type=checkbox].substituted.dark:enabled + label:active:before {
+  background-color: #444;
+  box-shadow: 0 0 0.04em, 0 0.06em 0.16em -0.03em transparent inset, 0 0 0 0.07em rgba(255, 255, 255, 0.1) inset;
+}
+.checkbox-wrapper-1 [type=checkbox].substituted.dark:checked + label:before {
+  background-color: #a97035;
+  color: rgba(255, 255, 255, 0.075);
+}
+.checkbox-wrapper-1 [type=checkbox].substituted.dark:checked:enabled:active + label:before,
+.checkbox-wrapper-1 [type=checkbox].substituted.dark:checked:enabled + label:active:before {
+  background-color: #c68035;
+  color: rgba(0, 0, 0, 0.275);
+}
+.whatsapp-contact-section {
+  position: fixed; /* Fixed position to keep it visible */
+  right: 20px; /* Adjust based on your layout */
+  bottom: 20px; /* Adjust based on your layout */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.whatsapp-contact-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  background-color: #25D366; /* WhatsApp color */
+  color: #ffffff;
+  border-radius: 50px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-contact-link:hover {
+  background-color: #20B45B; /* Slightly darker on hover */
+  text-decoration: none;
+}
+
+.whatsapp-icon {
+  width: 30px; /* Adjust icon size */
+  margin-right: 8px;
+}
+
+.whatsapp-number {
+  font-weight: bold;
+  margin-right: 5px;
+  direction: ltr;
+}
+
+.whatsapp-text {
+  font-size: 0.9rem; /* Smaller text for the trial info */
+     margin-right: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .whatsapp-contact-section {
+      right: 10px;
+      bottom: 10px;
+  }
+}

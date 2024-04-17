@@ -1,0 +1,42 @@
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+}
+.btn-primary {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.btn-light {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.table thead th {
+    border-bottom: 2px solid #dee2e6;
+}
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+.badge-warning {
+    background-color: #ffc107;
+}
+.badge-success {
+    background-color: #28a745;
+}
+.badge-danger {
+    background-color: #dc3545;
+}
+.form-check-input:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+/* Custom button for activating */
+.activate-btn {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.activate-btn:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}

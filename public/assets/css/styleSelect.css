@@ -1,0 +1,28 @@
+.select2-container[dir=rtl] .select2-selection--single .select2-selection__rendered {
+    margin-top:10px;  
+}
+
+.form-floating > label{
+    width: 126%; 
+    right: 8px;
+}
+
+.select2-container--bootstrap5 .select2-selection--single .select2-selection__rendered {
+    color: #2d2e34;
+    margin-top: 10px; 
+}
+
+label[for='CliForm1'],label[for='CaraPrincipalForm1'],label[for='id_opposant'],label[for='id_client'],
+label[for='id_position_client'],label[for='position_opposant'],label[for='date_dossier_bureau'],
+label[for='id_collaborateur_resp'],label[for='id_avocat_responsable'] 
+{
+    font-size: 16.5px;
+}  
+
+.btn.btn-icon{
+    width: 100px;
+    margin-left: 16px;
+}
+
+
+

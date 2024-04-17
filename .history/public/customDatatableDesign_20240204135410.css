@@ -1,0 +1,36 @@
+/* Container for the datatable to add padding & potentially a shadow or border */
+.datatable-container {
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+/* Enhances the look of the table header */
+table.dataTable thead tr {
+    background-color: #0065A4;
+    color: #ffffff;
+}
+
+/* Styles for the table cells */
+table.dataTable tbody td {
+    padding: 10px; /* Adjust padding */
+    vertical-align: middle;
+}
+
+/* Custom styles for actions buttons */
+.btn-actions {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.edit-btn {
+    background-color: #ffc107;
+    color: #ffffff;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: #ffffff;
+}

@@ -1,0 +1,55 @@
+ /* Styles ajoutés */
+ .container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #007bff; /* Bleu Bootstrap */
+}
+
+h1 i, h2 i {
+    margin-right: 10px;
+}
+
+.fa-check-circle {
+    color: green;
+}
+
+.fa-times-circle {
+    color: red;
+}
+
+.fa-info-circle {
+    color: #17a2b8; /* Bleu informatif Bootstrap */
+}
+
+ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.signatures div {
+    margin-bottom: 20px;
+}
+
+.signatures p {
+    margin: 10px 0;
+}
+
+p, li {
+    text-align: justify;
+}
+
+.form-check-label a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.form-check-label a:hover {
+    text-decoration: underline;
+}

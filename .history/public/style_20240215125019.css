@@ -1,0 +1,145 @@
+.text-banner {
+  padding: 10px 0; /* Add some padding */
+  margin-bottom: 20px; /* Add some space below the banner */
+  border-bottom: 1px solid #e9ecef; /* Optional: adds a line under the text banner */
+}
+.trial-banner {
+  padding: 10px 0; /* Adjust padding as needed */
+  margin-bottom: 20px; /* Spacing before the next content */
+  border-bottom: 1px solid #ddd; /* Optional: adds a subtle line under the banner */
+}
+.logo-container {
+  position: absolute;
+  top: 20px; /* Adjust as per requirement */
+  left: 20px; /* Adjust as per requirement */
+}
+
+.logo-container img {
+  width: 160px; /* Adjust based on your logo size */
+  height: auto;
+}
+
+
+.form-section {
+  background-color: #f7f7f7;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.description-section {
+  padding: 30px;
+  font-size: 0.9rem; /* Adjust font size for the description */
+}
+
+.btn-red {
+  background-color: #ff0000 !important;
+  color: white !important;
+  border: none !important;
+  margin-top: 5% !important; /* pushes the button to the bottom */
+  max-width: 66% !important;
+}
+
+.equal-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.equal-height > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make sure the button sticks to the bottom */
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.form-section button[type="submit"] {
+  margin-top: 3%;
+}
+.form-section label {
+  font-size: inherit;
+}
+.des {
+  font-size: 17px;
+  line-height: 30px;
+  margin: 20px 0;
+}
+.form-group > input,
+.form-group > select {
+  max-width: 66%;
+}
+.form-control {
+  color: #617181 !important;
+  background-color: #fff !important;
+  background-clip: padding-box !important;
+  border: 1px solid #a2b0bd !important;
+  border-radius: 0.25rem !important;
+}
+.intl-tel-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.intl-tel-input .selected-flag {
+  z-index: 4;
+}
+.intl-tel-input .country-list {
+  z-index: 5;
+}
+.input-group .intl-tel-input .form-control {
+  color: #617181;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #a2b0bd;
+  border-radius: 0.25rem;
+}
+.iti{
+  display: block !important;
+  width: 66%;
+}
+.title-with-line {
+  text-align: center;
+  font-size: 24px; /* You can adjust the font size as needed */
+  margin-bottom: 20px; /* Adjust the bottom margin as needed */
+  position: relative;
+  display: inline-block;
+}
+
+.title-with-line::after {
+  content: '';
+  position: absolute;
+  bottom: -10px; /* Adjust the position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px; /* Height of the underline */
+  width: 70%; /* Length of the underline */
+  background: #000; /* Color of the underline */
+}
+.language-switcher {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+.highlight1 {
+  color: #FF0000; /* Replace with your desired color */
+  
+}
+table.dataTable{
+  border: #cdc4c4 ;
+}
+
+
+
+
+.btn-right-margin {
+  margin-right: 20px; /* Space from the right edge */
+  float: right; /* Align to the right */
+}

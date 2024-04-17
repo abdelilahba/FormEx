@@ -1,0 +1,28 @@
+/* Custom DataTable Styling */
+.dt-responsive {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0.46875rem 2.1875rem rgb(90 97 105 / 10%), 0 0.9375rem 1.40625rem rgb(90 97 105 / 10%), 0 0.25rem 0.53125rem rgb(90 97 105 / 12%), 0 0.125rem 0.1875rem rgb(90 97 105 / 10%);
+}
+
+.dt-responsive thead {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.dt-responsive tbody tr:hover {
+    background-color: #f4f6f9;
+}
+
+.dt-responsive .btn {
+    margin-right: 5px;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    .dt-responsive {
+        font-size: 0.8rem;
+    }
+}
